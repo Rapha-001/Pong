@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Vibrant Palette Branding Overrides */
+  --color-primary: #0047AB;
+  --color-accent: #FF8C00;
+  --color-accent-gold: #FFD700;
+  --color-bg-canvas: #F0F2F5;
+
+  /* Standard utility overrides mapped to Vibrant Palette */
+  --color-indigo-50: #0047AB0C;
+  --color-indigo-100: #0047AB1A;
+  --color-indigo-150: #0047AB28;
+  --color-indigo-200: #0047AB38;
+  --color-indigo-300: #0047AB5A;
+  --color-indigo-400: #0047AB9D;
+  --color-indigo-500: #0047ABDF;
+  --color-indigo-550: #0047ABF0;
+  --color-indigo-600: #0047AB; /* Primary Deep Blue */
+  --color-indigo-700: #003B91;
+  --color-indigo-800: #002D70;
+  --color-indigo-900: #001E4C;
+  --color-indigo-950: #000F29;
+
+  /* Accent Orange Overrides (Mapping emerald to orange for upvotes and indicators) */
+  --color-emerald-50: #FF8C000C;
+  --color-emerald-100: #FF8C001C;
+  --color-emerald-150: #FF8C002B;
+  --color-emerald-200: #FF8C003D;
+  --color-emerald-250: #FF8C004D;
+  --color-emerald-500: #FF8C00; /* Vibrant Orange */
+  --color-emerald-600: #E07B00;
+  --color-emerald-700: #CC7000;
+  --color-emerald-800: #9E5600;
+
+  /* Charcoal slate gray scaling matching the professional design */
+  --color-zinc-50: #F7F9FB;
+  --color-zinc-100: #F0F2F5; /* Main bg canvas from Vibrant Palette */
+  --color-zinc-150: #E5E9EE;
+  --color-zinc-200: #DFE3E9;
+  --color-zinc-300: #CBD3DD;
+  --color-zinc-400: #94A3B8;
+  --color-zinc-450: #64748B;
+  --color-zinc-500: #475569;
+  --color-zinc-650: #334155;
+  --color-zinc-700: #1E293B;
+  --color-zinc-800: #0F172A;
+  --color-zinc-950: #020617;
+}
+
+/* Custom scrollbar hides */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+

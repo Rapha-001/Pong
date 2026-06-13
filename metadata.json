@@ -1,0 +1,8 @@
+{
+  "name": "UniUyo Connect",
+  "description": "Campus social network, student discovery, and community platform for the University of Uyo.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
